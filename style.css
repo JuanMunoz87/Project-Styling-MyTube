@@ -1,18 +1,32 @@
 /* || General Style */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 table {
   background-image: url(img/pexels-md-abdul-halim-2333293.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-right: 40px;
+  /* padding-right: 40px; */
 }
-
+/* 
 table,
 td,
 tr {
   border: 1px solid black;
-}
+} */
 
 /* Headers */
+.header-background {
+  background-color: silver;
+}
+
+h1 {
+  color: rgb(215, 215, 215);
+  text-shadow: -2px 2px 2px black;
+}
+
 h1,
 h2,
 h3 {
