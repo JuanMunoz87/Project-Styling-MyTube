@@ -1,0 +1,67 @@
+/* || General Style */
+table {
+  background-image: url(img/pexels-md-abdul-halim-2333293.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 40px;
+}
+/* 
+table,
+td,
+tr {
+  border: 1px solid black;
+} */
+
+/* Headers */
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+#main-Header {
+  font-family: 'Chango', cursive;
+} 
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation bar */
+#nav-bar {
+  vertical-align: baseline;
+  padding: 20px 40px 0 20px;
+  /* height: 700px; */
+}
+
+/* Video frames */
+iframe {
+  width: 400px;
+  height: 300px;
+}
+
+/* All links on the page*/
+a, p {
+  color:rgb(255, 255, 255);
+  font-family: 'Roboto', sans-serif;
+  text-decoration: 0;
+  text-align: center;
+}
+
+/* Home page sections */
+section {
+  height: 700px;
+}
+
+/* Form page */
+#form {
+  padding: 0 480px 300px 480px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Footer */
+
+footer {
+  font-family: 'Roboto', sans-serif;
+}
+

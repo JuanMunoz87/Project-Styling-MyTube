@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Video Page</title>
+  <!-- Main header font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
+  <!-- Link fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chango&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <!-- Table -->
+  <table id="form-table">
+    <!-- Header -->
+    <tr>
+      <td colspan="2">
+        <header>
+          <h1 id="main-Header">MyTube</h1>
+        </header>
+      </td>
+    </tr>
+    <!-- Navigation Bar -->
+    <tr>
+      <td id="nav-bar">
+        <nav>
+          <a href="./index.html">Home</a><br><br>
+          <a href="./pages/collection_1.html">Books</a><br><br>
+          <a href="./pages/collection_2.html">Sports</a><br><br>
+          <a href="./pages/collection_3.html">Fitness</a><br><br>
+          <a href="#">Upload Videos</a>
+        </nav>
+      </td>
+      <td id="form">
+        <h2 id="form-h2">Add New Video</h2>
+        <form action="" method="post">
+          <label for="video-title-input"><strong>Video Title</strong></label><br>
+          <input type="text" id="video-title-input" name="video-title-input" required><br><br>
+          <label for="comments"><strong>Description of your video:</strong></label><br>
+          <textarea name="comments" id="comments" cols="20" rows="6" required></textarea><br><br>
+          <label for="upload-video"><strong>Video</strong></label><br>
+          <input type="file" id="upload-video" name="upload-video" required><br><br>
+          <select name="collections" required>
+            <option value="">Choose Collection</option>
+            <option value="collection_1">Books</option>
+            <option value="collection_2">Sports</option>
+            <option value="collection_3">Exercises</option>
+          </select><br><br>
+          <input type="radio" id="public" name="restriction" value="public" checked required>
+          <label for="public">Public</label>
+          <input type="radio" id="private" name="restriction" value="private" required>
+          <label for="private">Private</label><br><br><br><br>
+          <input type="submit" value="Upload Video">
+        </form>
+      </td>
+    </tr>
+    <!-- Footer -->
+    <tr>
+      <td colspan="2">
+        <hr>
+        <footer>
+          <h3>&copy; Juan P. Munoz</h3>
+        </footer>
+      </td>
+    </tr>
+  </table>
+
+</body>
+
+</html>
