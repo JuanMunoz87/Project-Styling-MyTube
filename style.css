@@ -5,12 +5,12 @@ table {
   background-size: cover;
   padding-right: 40px;
 }
-/* 
+
 table,
 td,
 tr {
   border: 1px solid black;
-} */
+}
 
 /* Headers */
 h1,
@@ -63,5 +63,6 @@ section {
 
 footer {
   font-family: 'Roboto', sans-serif;
+  /* background-color: black; */
 }
 
