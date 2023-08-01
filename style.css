@@ -10,6 +10,11 @@ table {
   background-size: cover;
   /* padding-right: 40px; */
 }
+
+p {
+  font-weight: bold;
+}
+
 /* 
 table,
 td,
@@ -74,9 +79,9 @@ section {
 }
 
 /* Footer */
-
-footer {
+.footer {
   font-family: 'Roboto', sans-serif;
-  /* background-color: black; */
+  background-color: black;
+  color: aliceblue;
 }
 
